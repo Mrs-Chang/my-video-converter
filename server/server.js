@@ -85,7 +85,7 @@ app.get('*', (req, res) => {
   res.sendFile(join(__dirname, '../dist/index.html'))
 })
 
-const PORT = 3002
+const PORT = 3001
 app.listen(PORT, () => {
   console.log(`服务器运行在 http://localhost:${PORT}`)
 }) 

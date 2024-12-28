@@ -39,7 +39,7 @@ function App() {
         throw new Error(`网络请求失败: ${error.message}`)
       })
 
-      console.log('请求已发送，等待响应...')
+      console.log('请求已发送，等待响��...')
 
       if (!response.ok) {
         const errorText = await response.text()
